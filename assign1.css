@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+
+    height: 350px;
+    width: 350px;
+}
+img{
+    height: 350px;
+    width: 300px;
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10%;
+    margin: 40%;
+    background-color: rgb(221, 216, 206);
+    width: 550px;
+}
+
+.container .write{
+    padding: 15px;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container .write p{
+    padding-bottom: 12.7%;
+}
+
+.container .write h2{
+    padding-bottom: 5%;
+}
+
+.container .write h3{
+    color: hsl(158, 36%, 37%);
+    font-size: larger;
+    
+}
